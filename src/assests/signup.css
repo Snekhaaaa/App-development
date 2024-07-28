@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url("../assests/login.jpg");  */
+  }
+  
+  .signup-box {
+   background-color: rgb(204, 241, 237);
+    padding: 6rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    margin-bottom: 1rem;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: center;
+  }

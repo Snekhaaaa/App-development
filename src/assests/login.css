@@ -1,0 +1,34 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.bg{
+   background-image: url('LoginPage.jpg') ;
+}
+.container {
+  /* background-image: url("C:\\Users\\snekh\\OneDrive\\Desktop\\LOGIN AND SIGNUP\\REACT\\techstack\\src\\assests\\LoginPage.jpg"); */
+  width:100%;
+  /* background-color: blue;  */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('LoginPage.jpg') ;
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}

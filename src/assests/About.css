@@ -1,0 +1,28 @@
+.container {
+  padding: 2rem;
+  background-color: #f5faff; /* Light background color for the about page */
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.paper {
+  padding: 1rem;
+  margin: 2rem 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contactPaper {
+  margin-top: 4rem; /* Increase the top margin for the contact section */
+}
+
+.MuiTypography-h2 {
+  font-weight: 700; /* Bold font for headings */
+}
+
+.MuiTypography-body1 {
+  font-size: 1rem; /* Standard font size for body text */
+}
