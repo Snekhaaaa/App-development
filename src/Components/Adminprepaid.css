@@ -1,0 +1,45 @@
+.admin-prepaid-container {
+    padding: 40px; /* Slightly lighter background color for better contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the entire container */
+  }
+  
+  .admin-prepaid-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Darker color for better readability */
+    text-align: center;
+  }
+  
+  .admin-prepaid-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center-align the cards */
+  }
+  
+  .admin-prepaid-card {
+    background-color: #ffffff; /* White background for the cards */
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; /* Slightly wider cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for a more polished look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .admin-prepaid-card h3 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: #007bff; /* Primary color for card titles */
+  }
+  
+  .admin-prepaid-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555; /* Slightly lighter color for text */
+  }
+  
+  .admin-prepaid-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }

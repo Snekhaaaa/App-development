@@ -1,0 +1,40 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-image {
+  flex: 1;
+  padding: 10px;
+  padding-bottom: 50px;
+  margin-top: 70px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-details {
+  flex: 2;
+  padding: 10px;
+}
+
+.about-details h1 {
+  font-size: 2.3rem; /* Larger font size for the heading */
+  font-weight: bold; /* Make the heading bold */
+  margin-bottom: 1rem;
+}
+
+.about-details p {
+  font-size: 1.3rem; /* Larger font size for better readability */
+  font-weight: 700; /* Normal weight for paragraphs */
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
